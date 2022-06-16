@@ -8,6 +8,12 @@
     box-sizing: border-box;
 }
 :root{
+    --main-color: #fffffa;
+    --paragraph: #08415C;
+    --form-color: #58a4b0;
+    --footer-color: #a08794;
+    --orange-light: #e8871e;
+    
     font-size: 62.5%; /* 1rem = 10px*/
 }
 html,body{
