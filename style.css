@@ -13,7 +13,7 @@
     --form-color: #58a4b0;
     --footer-color: #a08794;
     --orange-light: #e8871e;
-    
+
     font-size: 62.5%; /* 1rem = 10px*/
 }
 html,body{
@@ -22,8 +22,13 @@ html,body{
 }
 body{
     font-family: 'Inter', sans-serif;
+    font-size:1.6rem;
 
+    text-align: center;
+
+    overflow: overlay;
 }
+
 
 
 
