@@ -16,6 +16,7 @@
 
     font-size: 62.5%; /* 1rem = 10px*/
 }
+
 html,body{
     width:100%;
     height:100%;
@@ -29,8 +30,25 @@ body{
 
     overflow: overlay;
 }
-h1{
-    
+h1#title{
+    color: var(--paragraph);
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+p#description{
+    width: 100%;
+    color: var(--paragraph);
+    margin-top:3rem;
+    margin-bottom: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 div.icon{
     background-color: var(--main-color);
