@@ -21,12 +21,16 @@ html,body{
     height:100%;
 }
 body{
+   
     font-family: 'Inter', sans-serif;
     font-size:1.6rem;
 
     text-align: center;
 
     overflow: overlay;
+}
+h1{
+    
 }
 div.icon{
     background-color: var(--main-color);
@@ -35,4 +39,9 @@ div.icon{
     margin: auto;
     
     
+}
+form#survey-form, label{
+    background-color: var(--form-color);
+    padding: auto;
+    margin: auto;
 }
