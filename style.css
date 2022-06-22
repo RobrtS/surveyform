@@ -32,6 +32,7 @@ body{
 
     text-align: center;
 
+
     overflow: overlay;
 }
 h1#title{
@@ -77,6 +78,7 @@ form#survey-form, label{
 label#name-label{
     padding-right: 3.5rem;
     padding-left: 1.7rem;
+
 }
 label#email-label{
     padding-right: 3.5rem;
