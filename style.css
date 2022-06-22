@@ -32,6 +32,10 @@ body{
     overflow: overlay;
 }
 h1#title{
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: bold;
+    
     
     color: var(--paragraph);
     text-align: center;
@@ -40,6 +44,8 @@ h1#title{
     margin-bottom: 2rem;
 }
 p#description{
+    font-weight: 300;
+    font-size: 1.9rem;
     width: 100%;
     color: var(--paragraph);
     margin-top:3rem;
@@ -79,6 +85,12 @@ label#age-label{
     padding-left: 1.7rem;
 
 }
+label{
+    color: var(--paragraph);
+}
+option{
+    color: var(--paragraph);
+}
 section{
     background-color: var(--main-color);
 }
@@ -110,4 +122,36 @@ form#survey-form label#name-label, label#email-label, label#age-label{
     margin-bottom: 2.2rem;
 
     text-align: center;
+}
+.copyright-footer{
+    display: inline-block;
+    flex-direction: row;
+    font-weight: 900;
+    margin-top: 40rem;
+    margin-left: auto;
+    margin-right:auto ;
+    font-size: 1.3rem;
+    color: #08415C;
+}
+.footer-icon{
+    display: inline-block;
+    flex-direction: row;
+    font-weight: 900;
+    margin-left: 10rem;
+    font-size: 1.3rem;
+    color: #08415C;
+}
+fieldset.estado{
+    margin-bottom: 2rem;
+    background-color: var(--main-color);
+    border: none;
+}
+fieldset.objetivo{
+    margin-bottom: 2rem;
+    border: none;
+}
+fieldset.servico{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border: none;
 }
