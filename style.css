@@ -43,12 +43,18 @@ h1#title{
     font-style: normal;
     font-weight: bold;
     /*--------------------------- */
+
+    
     padding: 1.5rem 2.0rem;
 
     background-color: var(--main-color) ;
     color: var(--paragraph);
+
     text-align: center;
     text-transform: uppercase;
+
+    margin-right:2rem;
+    margin-left:2rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
@@ -61,14 +67,19 @@ p#description{
 
     width: 100%;
     color: var(--paragraph);
+    
+    /*----------MARGIN------------*/
     margin-top:3rem;
     margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    /*-----------------------------*/
+    
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 div.icon{
     background-color: var(--main-color);
