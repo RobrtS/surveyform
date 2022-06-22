@@ -25,7 +25,10 @@ body{
     background-color: var(--main-color);
    
     font-family: 'Inter', sans-serif;
-    font-size:1.6rem;
+    font-size:1.8rem;
+    font-weight: normal;
+    font-style: normal;
+    
 
     text-align: center;
 
