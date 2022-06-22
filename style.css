@@ -32,6 +32,7 @@ body{
     overflow: overlay;
 }
 h1#title{
+    
     color: var(--paragraph);
     text-align: center;
     text-transform: uppercase;
