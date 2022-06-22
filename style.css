@@ -24,32 +24,41 @@ html,body{
 body{
     background-color: var(--main-color);
    
+    /*----------- FONT ------------ */
     font-family: 'Inter', sans-serif;
     font-size:1.8rem;
     font-weight: normal;
     font-style: normal;
+    /*--------------------------- */
+
     
-
     text-align: center;
-
 
     overflow: overlay;
 }
 h1#title{
+
+    /*----------- FONT ------------ */
     font-size: 4.8rem;
     font-style: normal;
     font-weight: bold;
-    
-    
+    /*--------------------------- */
+    padding: 1.5rem 2.0rem;
+
+    background-color: var(--main-color) ;
     color: var(--paragraph);
     text-align: center;
     text-transform: uppercase;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 p#description{
+
+    /*----------- FONT ------------ */
     font-weight: 300;
     font-size: 1.9rem;
+    /*--------------------------- */
+
     width: 100%;
     color: var(--paragraph);
     margin-top:3rem;
@@ -60,34 +69,37 @@ p#description{
     padding-right: 2rem;
     margin-left: auto;
     margin-right: auto;
-
 }
 div.icon{
     background-color: var(--main-color);
     display: inline-block;
     padding: 1.8rem;
     margin: auto;
-    
-    
+}
+form#survey-form  label{
+    background-color: var(--main-color);
+
 }
 form#survey-form, label{
     background-color: var(--main-color);
     width: 100vw;
-    padding: auto;
+   
 }
-label#name-label{
+label#name-label,label#email-label,label#age-label, label#password-label{
+    /*---------PADDING----------*/
     padding-right: 3.5rem;
-    padding-left: 1.7rem;
+    padding-left: 3.5rem;
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+    /*---------------------------*/
 
+    color: var(--paragraph);
 }
-label#email-label{
-    padding-right: 3.5rem;
-    padding-left: 1.7rem;
-
-}
-label#age-label{
-    padding-right: 3.5rem;
-    padding-left: 1.7rem;
+label#confirmPassword-label{
+    color: var(--paragraph);
+    padding-right:12rem ;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 
 }
 label{
@@ -99,28 +111,14 @@ option{
 section{
     background-color: var(--main-color);
 }
-input#name{
+input#name,input#age,input#email,input#password,input#confirm-pswd{
    
     background-color: var(--main-color);
     color: var(--paragraph);
   
     border-radius: 0.3rem;
 }
-input#email{
-   
-    background-color: var(--main-color);
-    color: var(--paragraph);
-  
-    border-radius: 0.3rem;
-}
-input#age{
-   
-    background-color: var(--main-color);
-    color: var(--paragraph);
-  
-    border-radius: 0.3rem;
-}
-form#survey-form label#name-label, label#email-label, label#age-label{
+form#survey-form label#name-label, label#email-label, label#password-label, label#age-label, label#confirmPassword-label{
     display: inline-block;
     flex-direction: column;
     margin-top: 1rem;
@@ -159,4 +157,18 @@ fieldset.servico{
     margin-bottom: 2rem;
     margin-top: 2rem;
     border: none;
+}
+fieldset#goal{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: none;
+    display: inline-block;
+}
+fieldset#goal > label{
+    display: inline;
+    
+    margin: auto;
+    color: var(--paragraph);
+    font-size: 1.8rem;
+    background-color: var(--main-color);
 }

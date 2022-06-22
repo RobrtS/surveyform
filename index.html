@@ -51,6 +51,24 @@
               type="email"
               placeholder="email@email.com"/>
           </label>
+          <label id="password-label" for="">
+            Senha : <input
+              type="password"
+              name="pswd"
+              id="pswd"
+              required 
+              pattern="[a-z0-5]{8,}"
+            >
+          </label>
+          <label id="confirmPassword-label" for="">
+          Confirme sua Senha : <input
+              type="password"
+              name="Confirm-pswd"
+              id="confirm-pswd"
+              required 
+              pattern="[a-z0-5]{8,}"
+            >
+          </label>
 
           <label id="age-label" for=""
             >Idade : <input
@@ -61,6 +79,7 @@
               min="18"
               placeholder="ex:22"/>
           </label>
+         
 
         </form>
 
@@ -85,6 +104,7 @@
             <input name="radio" type="radio" /><label for="">Talvez</label>
             <!--<textarea name="" id="" cols="50" rows="2"></textarea>-->
           </fieldset>
+
 
           <fieldset id="goal">
             <label class="objetivo" for="">Qual é o seu objetivo? </label>
