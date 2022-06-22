@@ -108,9 +108,12 @@ label#name-label,label#email-label,label#age-label, label#password-label{
 }
 label#confirmPassword-label{
     color: var(--paragraph);
+
+    /*---------PADDING----------*/   
     padding-right:12rem ;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    /*---------------------------*/
 
 }
 label{
